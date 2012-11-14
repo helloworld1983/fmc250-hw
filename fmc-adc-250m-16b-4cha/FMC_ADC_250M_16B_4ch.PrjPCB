@@ -95,22 +95,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document5]
-DocumentPath=LVDS_buffer.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document6]
 DocumentPath=Schematics\ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -126,7 +110,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document7]
+[Document6]
 DocumentPath=Schematics\Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +126,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document8]
+[Document7]
 DocumentPath=Schematics\Clock_Distribution.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -158,7 +142,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document9]
+[Document8]
 DocumentPath=Schematics\ADC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,8 +158,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document10]
+[Document9]
 DocumentPath=Schematics\Triggers.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document10]
+DocumentPath=Schematics\ADC_Buffers.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document11]
+DocumentPath=shield.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -190,6 +206,99 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document12]
+DocumentPath=Schematics\FMC_connector.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document13]
+DocumentPath=Schematics\ADC_Buffers.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[ProjectVariant1]
+Description=PLL
+AllowFabrication=0
+ParameterCount=0
+VariationCount=6
+Variation1=Designator=TR1|UniqueId=\LKCJFEAM\KKSUCTTT|Kind=1|AlternatePart= 
+Variation2=Designator=TR1|UniqueId=\LKCJFEAM\PTNNBMSR|Kind=1|AlternatePart= 
+Variation3=Designator=TR1|UniqueId=\LKCJFEAM\XVGJWJYU|Kind=1|AlternatePart= 
+Variation4=Designator=TR1|UniqueId=\LKCJFEAM\GOQMEGCL|Kind=1|AlternatePart= 
+Variation5=Designator=IC?|UniqueId=\LKCJFEAM\ASDYHVSU|Kind=1|AlternatePart= 
+Variation6=Designator=R31|UniqueId=\HCCDLMUN\DBTXMGFL|Kind=0|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+Description=Splitters
+AllowFabrication=0
+ParameterCount=0
+VariationCount=41
+Variation1=Designator=C26|UniqueId=\LKCJFEAM\LGSILPKU|Kind=1|AlternatePart= 
+Variation2=Designator=C27|UniqueId=\LKCJFEAM\FUAHTDYC|Kind=1|AlternatePart= 
+Variation3=Designator=C28|UniqueId=\LKCJFEAM\KNVYNGEV|Kind=1|AlternatePart= 
+Variation4=Designator=C29|UniqueId=\LKCJFEAM\JPHFPQOQ|Kind=1|AlternatePart= 
+Variation5=Designator=C30|UniqueId=\LKCJFEAM\PWYNKLUX|Kind=1|AlternatePart= 
+Variation6=Designator=C31|UniqueId=\LKCJFEAM\LDBRYJPK|Kind=1|AlternatePart= 
+Variation7=Designator=C32|UniqueId=\LKCJFEAM\BLASXCDT|Kind=1|AlternatePart= 
+Variation8=Designator=C34|UniqueId=\LKCJFEAM\DDAWHNXI|Kind=1|AlternatePart= 
+Variation9=Designator=C35|UniqueId=\LKCJFEAM\XJTQFIPR|Kind=1|AlternatePart= 
+Variation10=Designator=C37|UniqueId=\LKCJFEAM\KEAVOTJJ|Kind=1|AlternatePart= 
+Variation11=Designator=C47|UniqueId=\LKCJFEAM\SECTOFKK|Kind=1|AlternatePart= 
+Variation12=Designator=C48|UniqueId=\LKCJFEAM\SQUXDSUW|Kind=1|AlternatePart= 
+Variation13=Designator=C49|UniqueId=\LKCJFEAM\GTTRDYGY|Kind=1|AlternatePart= 
+Variation14=Designator=C50|UniqueId=\LKCJFEAM\WPXAECHY|Kind=1|AlternatePart= 
+Variation15=Designator=C52|UniqueId=\LKCJFEAM\DLGNGVWE|Kind=1|AlternatePart= 
+Variation16=Designator=C59|UniqueId=\LKCJFEAM\AQASVBLK|Kind=1|AlternatePart= 
+Variation17=Designator=C60|UniqueId=\LKCJFEAM\KWWYVGOR|Kind=1|AlternatePart= 
+Variation18=Designator=C?|UniqueId=\LKCJFEAM\BEAQFCDD|Kind=1|AlternatePart= 
+Variation19=Designator=IC2|UniqueId=\LKCJFEAM\UMESONFT|Kind=1|AlternatePart= 
+Variation20=Designator=IC?|UniqueId=\LKCJFEAM\ASDYHVSU|Kind=0|AlternatePart= 
+Variation21=Designator=J3|UniqueId=\LKCJFEAM\MFYVFKEF|Kind=1|AlternatePart= 
+Variation22=Designator=J4|UniqueId=\LKCJFEAM\HDJFRHYF|Kind=1|AlternatePart= 
+Variation23=Designator=J7|UniqueId=\LKCJFEAM\IJCLDFUB|Kind=1|AlternatePart= 
+Variation24=Designator=J10|UniqueId=\LKCJFEAM\MLILNBBC|Kind=1|AlternatePart= 
+Variation25=Designator=L1|UniqueId=\LKCJFEAM\LTCLAQEF|Kind=1|AlternatePart= 
+Variation26=Designator=L?|UniqueId=\LKCJFEAM\OQKJGXRQ|Kind=1|AlternatePart= 
+Variation27=Designator=OSC1|UniqueId=\LKCJFEAM\UCWOGQAO|Kind=1|AlternatePart= 
+Variation28=Designator=OSC2|UniqueId=\LKCJFEAM\YTYQCVOT|Kind=1|AlternatePart= 
+Variation29=Designator=R12|UniqueId=\LKCJFEAM\NHCWASSI|Kind=1|AlternatePart= 
+Variation30=Designator=R13|UniqueId=\LKCJFEAM\RUKQMDBJ|Kind=1|AlternatePart= 
+Variation31=Designator=R14|UniqueId=\LKCJFEAM\FILVOPPE|Kind=1|AlternatePart= 
+Variation32=Designator=R15|UniqueId=\LKCJFEAM\PLIQMFXX|Kind=1|AlternatePart= 
+Variation33=Designator=R17|UniqueId=\LKCJFEAM\SBQUOURM|Kind=1|AlternatePart= 
+Variation34=Designator=R18|UniqueId=\LKCJFEAM\CQIORSBH|Kind=1|AlternatePart= 
+Variation35=Designator=R19|UniqueId=\LKCJFEAM\FJAPTOID|Kind=1|AlternatePart= 
+Variation36=Designator=R20|UniqueId=\LKCJFEAM\HBGDRKCN|Kind=1|AlternatePart= 
+Variation37=Designator=R21|UniqueId=\LKCJFEAM\TJBUOKYQ|Kind=1|AlternatePart= 
+Variation38=Designator=R23|UniqueId=\LKCJFEAM\UGDRXQAY|Kind=1|AlternatePart= 
+Variation39=Designator=R?|UniqueId=\LKCJFEAM\HVSJOEAH|Kind=1|AlternatePart= 
+Variation40=Designator=TR1|UniqueId=\LKCJFEAM\GOQMEGCL|Kind=0|AlternatePart= 
+Variation41=Designator=TR?|UniqueId=\LKCJFEAM\CVXNBVWD|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [PCBConfiguration1]
 ReleaseItemId=
 CurrentRevision=
@@ -200,7 +309,7 @@ GenerateBOM=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -331,7 +440,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -352,7 +461,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -460,7 +569,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -482,7 +591,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -538,7 +647,7 @@ OutputDefault9=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -575,7 +684,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -755,7 +864,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -784,7 +893,7 @@ OutputDefault4=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=OKI B4100 (MS)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
