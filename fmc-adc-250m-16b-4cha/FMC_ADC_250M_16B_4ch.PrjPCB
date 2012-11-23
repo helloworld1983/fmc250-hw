@@ -308,6 +308,10 @@ DItemRevisionGUID=
 DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
 DItemRevisionGUID=
 
+[GeneratedDocument3]
+DocumentPath=shield.PcbDoc.htm
+DItemRevisionGUID=
+
 [PCBConfiguration1]
 ReleaseItemId=
 CurrentRevision=
