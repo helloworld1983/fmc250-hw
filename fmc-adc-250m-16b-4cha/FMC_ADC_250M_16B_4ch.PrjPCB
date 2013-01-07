@@ -240,7 +240,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document14]
-DocumentPath=..\..\GEM_XDAQS\2d_readout\DOC\2D-mocowanie.PcbDoc
+DocumentPath=shield_2d.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
