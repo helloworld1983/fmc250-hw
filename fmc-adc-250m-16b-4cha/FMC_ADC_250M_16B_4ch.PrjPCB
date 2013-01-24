@@ -15,7 +15,7 @@ TimestampOutput=0
 SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
-PinSwapBy_Pin=1
+PinSwapBy_Pin=0
 AllowPortNetNames=0
 AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
@@ -255,66 +255,63 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document15]
+DocumentPath=panel_silk.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [ProjectVariant1]
-Description=PLL
+Description=active clock
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
-Variation1=Designator=TR1|UniqueId=\LKCJFEAM\KKSUCTTT|Kind=1|AlternatePart= 
-Variation2=Designator=TR1|UniqueId=\LKCJFEAM\PTNNBMSR|Kind=1|AlternatePart= 
-Variation3=Designator=TR1|UniqueId=\LKCJFEAM\XVGJWJYU|Kind=1|AlternatePart= 
-Variation4=Designator=TR1|UniqueId=\LKCJFEAM\GOQMEGCL|Kind=1|AlternatePart= 
-Variation5=Designator=IC?|UniqueId=\LKCJFEAM\ASDYHVSU|Kind=1|AlternatePart= 
-Variation6=Designator=R31|UniqueId=\HCCDLMUN\DBTXMGFL|Kind=0|AlternatePart= 
+VariationCount=10
+Variation1=Designator=R22|UniqueId=\HCCDLMUN\MYTTNKKT|Kind=1|AlternatePart= 
+Variation2=Designator=R41|UniqueId=\HCCDLMUN\MAGWSRVX|Kind=1|AlternatePart= 
+Variation3=Designator=R56|UniqueId=\HCCDLMUN\GUGJTSUE|Kind=1|AlternatePart= 
+Variation4=Designator=R57|UniqueId=\HCCDLMUN\MWGBLMCJ|Kind=1|AlternatePart= 
+Variation5=Designator=R58|UniqueId=\HCCDLMUN\GGINTPRW|Kind=1|AlternatePart= 
+Variation6=Designator=R59|UniqueId=\HCCDLMUN\PTXAPNUF|Kind=1|AlternatePart= 
+Variation7=Designator=R60|UniqueId=\HCCDLMUN\INKARWVK|Kind=1|AlternatePart= 
+Variation8=Designator=R61|UniqueId=\HCCDLMUN\CEJGSWBR|Kind=1|AlternatePart= 
+Variation9=Designator=C60|UniqueId=\HCCDLMUN\KWWYVGOR|Kind=1|AlternatePart= 
+Variation10=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
-Description=Splitters
+Description=passive clock
 AllowFabrication=0
 ParameterCount=0
-VariationCount=41
-Variation1=Designator=C26|UniqueId=\LKCJFEAM\LGSILPKU|Kind=1|AlternatePart= 
-Variation2=Designator=C27|UniqueId=\LKCJFEAM\FUAHTDYC|Kind=1|AlternatePart= 
-Variation3=Designator=C28|UniqueId=\LKCJFEAM\KNVYNGEV|Kind=1|AlternatePart= 
-Variation4=Designator=C29|UniqueId=\LKCJFEAM\JPHFPQOQ|Kind=1|AlternatePart= 
-Variation5=Designator=C30|UniqueId=\LKCJFEAM\PWYNKLUX|Kind=1|AlternatePart= 
-Variation6=Designator=C31|UniqueId=\LKCJFEAM\LDBRYJPK|Kind=1|AlternatePart= 
-Variation7=Designator=C32|UniqueId=\LKCJFEAM\BLASXCDT|Kind=1|AlternatePart= 
-Variation8=Designator=C34|UniqueId=\LKCJFEAM\DDAWHNXI|Kind=1|AlternatePart= 
-Variation9=Designator=C35|UniqueId=\LKCJFEAM\XJTQFIPR|Kind=1|AlternatePart= 
-Variation10=Designator=C37|UniqueId=\LKCJFEAM\KEAVOTJJ|Kind=1|AlternatePart= 
-Variation11=Designator=C47|UniqueId=\LKCJFEAM\SECTOFKK|Kind=1|AlternatePart= 
-Variation12=Designator=C48|UniqueId=\LKCJFEAM\SQUXDSUW|Kind=1|AlternatePart= 
-Variation13=Designator=C49|UniqueId=\LKCJFEAM\GTTRDYGY|Kind=1|AlternatePart= 
-Variation14=Designator=C50|UniqueId=\LKCJFEAM\WPXAECHY|Kind=1|AlternatePart= 
-Variation15=Designator=C52|UniqueId=\LKCJFEAM\DLGNGVWE|Kind=1|AlternatePart= 
-Variation16=Designator=C59|UniqueId=\LKCJFEAM\AQASVBLK|Kind=1|AlternatePart= 
-Variation17=Designator=C60|UniqueId=\LKCJFEAM\KWWYVGOR|Kind=1|AlternatePart= 
-Variation18=Designator=C?|UniqueId=\LKCJFEAM\BEAQFCDD|Kind=1|AlternatePart= 
-Variation19=Designator=IC2|UniqueId=\LKCJFEAM\UMESONFT|Kind=1|AlternatePart= 
-Variation20=Designator=IC?|UniqueId=\LKCJFEAM\ASDYHVSU|Kind=0|AlternatePart= 
-Variation21=Designator=J3|UniqueId=\LKCJFEAM\MFYVFKEF|Kind=1|AlternatePart= 
-Variation22=Designator=J4|UniqueId=\LKCJFEAM\HDJFRHYF|Kind=1|AlternatePart= 
-Variation23=Designator=J7|UniqueId=\LKCJFEAM\IJCLDFUB|Kind=1|AlternatePart= 
-Variation24=Designator=J10|UniqueId=\LKCJFEAM\MLILNBBC|Kind=1|AlternatePart= 
-Variation25=Designator=L1|UniqueId=\LKCJFEAM\LTCLAQEF|Kind=1|AlternatePart= 
-Variation26=Designator=L?|UniqueId=\LKCJFEAM\OQKJGXRQ|Kind=1|AlternatePart= 
-Variation27=Designator=OSC1|UniqueId=\LKCJFEAM\UCWOGQAO|Kind=1|AlternatePart= 
-Variation28=Designator=OSC2|UniqueId=\LKCJFEAM\YTYQCVOT|Kind=1|AlternatePart= 
-Variation29=Designator=R12|UniqueId=\LKCJFEAM\NHCWASSI|Kind=1|AlternatePart= 
-Variation30=Designator=R13|UniqueId=\LKCJFEAM\RUKQMDBJ|Kind=1|AlternatePart= 
-Variation31=Designator=R14|UniqueId=\LKCJFEAM\FILVOPPE|Kind=1|AlternatePart= 
-Variation32=Designator=R15|UniqueId=\LKCJFEAM\PLIQMFXX|Kind=1|AlternatePart= 
-Variation33=Designator=R17|UniqueId=\LKCJFEAM\SBQUOURM|Kind=1|AlternatePart= 
-Variation34=Designator=R18|UniqueId=\LKCJFEAM\CQIORSBH|Kind=1|AlternatePart= 
-Variation35=Designator=R19|UniqueId=\LKCJFEAM\FJAPTOID|Kind=1|AlternatePart= 
-Variation36=Designator=R20|UniqueId=\LKCJFEAM\HBGDRKCN|Kind=1|AlternatePart= 
-Variation37=Designator=R21|UniqueId=\LKCJFEAM\TJBUOKYQ|Kind=1|AlternatePart= 
-Variation38=Designator=R23|UniqueId=\LKCJFEAM\UGDRXQAY|Kind=1|AlternatePart= 
-Variation39=Designator=R?|UniqueId=\LKCJFEAM\HVSJOEAH|Kind=1|AlternatePart= 
-Variation40=Designator=TR1|UniqueId=\LKCJFEAM\GOQMEGCL|Kind=0|AlternatePart= 
-Variation41=Designator=TR?|UniqueId=\LKCJFEAM\CVXNBVWD|Kind=1|AlternatePart= 
-ParamVariationCount=0
+VariationCount=16
+Variation1=Designator=R66|UniqueId=\HCCDLMUN\BHVVFUPX|Kind=1|AlternatePart= 
+Variation2=Designator=R67|UniqueId=\HCCDLMUN\ATDOTVQN|Kind=1|AlternatePart= 
+Variation3=Designator=R62|UniqueId=\HCCDLMUN\FJBUJHSW|Kind=1|AlternatePart= 
+Variation4=Designator=R63|UniqueId=\HCCDLMUN\RBJLFKCA|Kind=1|AlternatePart= 
+Variation5=Designator=R68|UniqueId=\HCCDLMUN\CHUGMUQC|Kind=1|AlternatePart= 
+Variation6=Designator=R69|UniqueId=\HCCDLMUN\HPTXMLGY|Kind=1|AlternatePart= 
+Variation7=Designator=R70|UniqueId=\HCCDLMUN\OGQPSYHX|Kind=1|AlternatePart= 
+Variation8=Designator=R71|UniqueId=\HCCDLMUN\CFLXLOAJ|Kind=1|AlternatePart= 
+Variation9=Designator=R26|UniqueId=\HCCDLMUN\GYQAGHLU|Kind=1|AlternatePart= 
+Variation10=Designator=R72|UniqueId=\HCCDLMUN\WVOFHFNV|Kind=1|AlternatePart= 
+Variation11=Designator=R73|UniqueId=\HCCDLMUN\CTJITWIK|Kind=1|AlternatePart= 
+Variation12=Designator=L1|UniqueId=\HCCDLMUN\EPJTFVYQ|Kind=1|AlternatePart= 
+Variation13=Designator=L9|UniqueId=\HCCDLMUN\LTCLAQEF|Kind=1|AlternatePart= 
+Variation14=Designator=C17|UniqueId=\HCCDLMUN\CLLHSGKL|Kind=0|AlternatePart= 
+Variation15=Designator=L3|UniqueId=\HCCDLMUN\OQKJGXRQ|Kind=1|AlternatePart= 
+Variation16=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=2|AlternatePart=0R
+ParamVariation1=ParameterName=Comment|VariantValue=0R
+ParamDesignator1=R24
+ParamVariationCount=1
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch\Design Rule Check - FMC_ADC_250M_16B_4ch_pcb.html
@@ -490,7 +487,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=New Output
 Description=
-TargetPrinter=Bullzip PDF Printer
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 
 [OutputGroup4]
