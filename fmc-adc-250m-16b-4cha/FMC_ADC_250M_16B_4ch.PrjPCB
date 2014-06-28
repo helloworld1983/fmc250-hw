@@ -128,22 +128,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document7]
-DocumentPath=Schematics\Clock_Distribution.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document8]
 DocumentPath=Schematics\ADC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +143,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document9]
+[Document8]
 DocumentPath=Schematics\Triggers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -175,7 +159,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document10]
+[Document9]
 DocumentPath=Schematics\ADC_Buffers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -183,6 +167,22 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document10]
+DocumentPath=Schematics\Clock_Distribution.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -271,6 +271,54 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document16]
+DocumentPath=FMC_ADC_250(passive clock).OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document17]
+DocumentPath=FMC_ADC_250(active clock).OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document18]
+DocumentPath=FMC_ADC_250(active clock GSI).OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [ProjectVariant1]
 Description=active clock
 AllowFabrication=0
@@ -292,7 +340,7 @@ ParamVariationCount=0
 Description=passive clock
 AllowFabrication=0
 ParameterCount=0
-VariationCount=16
+VariationCount=15
 Variation1=Designator=R66|UniqueId=\HCCDLMUN\BHVVFUPX|Kind=1|AlternatePart= 
 Variation2=Designator=R67|UniqueId=\HCCDLMUN\ATDOTVQN|Kind=1|AlternatePart= 
 Variation3=Designator=R62|UniqueId=\HCCDLMUN\FJBUJHSW|Kind=1|AlternatePart= 
@@ -306,12 +354,37 @@ Variation10=Designator=R72|UniqueId=\HCCDLMUN\WVOFHFNV|Kind=1|AlternatePart=
 Variation11=Designator=R73|UniqueId=\HCCDLMUN\CTJITWIK|Kind=1|AlternatePart= 
 Variation12=Designator=L1|UniqueId=\HCCDLMUN\EPJTFVYQ|Kind=1|AlternatePart= 
 Variation13=Designator=L9|UniqueId=\HCCDLMUN\LTCLAQEF|Kind=1|AlternatePart= 
-Variation14=Designator=C17|UniqueId=\HCCDLMUN\CLLHSGKL|Kind=0|AlternatePart= 
-Variation15=Designator=L3|UniqueId=\HCCDLMUN\OQKJGXRQ|Kind=1|AlternatePart= 
-Variation16=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=2|AlternatePart=0R
+Variation14=Designator=L3|UniqueId=\HCCDLMUN\OQKJGXRQ|Kind=1|AlternatePart= 
+Variation15=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=2|AlternatePart=0R
 ParamVariation1=ParameterName=Comment|VariantValue=0R
 ParamDesignator1=R24
 ParamVariationCount=1
+
+[ProjectVariant3]
+Description=active clock_GSI
+AllowFabrication=0
+ParameterCount=0
+VariationCount=19
+Variation1=Designator=R22|UniqueId=\HCCDLMUN\MYTTNKKT|Kind=1|AlternatePart= 
+Variation2=Designator=R41|UniqueId=\HCCDLMUN\MAGWSRVX|Kind=1|AlternatePart= 
+Variation3=Designator=R56|UniqueId=\HCCDLMUN\GUGJTSUE|Kind=1|AlternatePart= 
+Variation4=Designator=R57|UniqueId=\HCCDLMUN\MWGBLMCJ|Kind=1|AlternatePart= 
+Variation5=Designator=R58|UniqueId=\HCCDLMUN\GGINTPRW|Kind=1|AlternatePart= 
+Variation6=Designator=R59|UniqueId=\HCCDLMUN\PTXAPNUF|Kind=1|AlternatePart= 
+Variation7=Designator=R60|UniqueId=\HCCDLMUN\INKARWVK|Kind=1|AlternatePart= 
+Variation8=Designator=R61|UniqueId=\HCCDLMUN\CEJGSWBR|Kind=1|AlternatePart= 
+Variation9=Designator=C60|UniqueId=\HCCDLMUN\KWWYVGOR|Kind=1|AlternatePart= 
+Variation10=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
+Variation11=Designator=TR2|UniqueId=\HCCDLMUN\KKSUCTTT|Kind=1|AlternatePart= 
+Variation12=Designator=TR3|UniqueId=\HCCDLMUN\PTNNBMSR|Kind=1|AlternatePart= 
+Variation13=Designator=TR4|UniqueId=\HCCDLMUN\XVGJWJYU|Kind=1|AlternatePart= 
+Variation14=Designator=TR5|UniqueId=\HCCDLMUN\GOQMEGCL|Kind=1|AlternatePart= 
+Variation15=Designator=IC3|UniqueId=\HCCDLMUN\ASDYHVSU|Kind=1|AlternatePart= 
+Variation16=Designator=OSC2|UniqueId=\HCCDLMUN\YTYQCVOT|Kind=0|AlternatePart= 
+Variation17=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
+Variation18=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
+Variation19=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch\Design Rule Check - FMC_ADC_250M_16B_4ch_pcb.html
