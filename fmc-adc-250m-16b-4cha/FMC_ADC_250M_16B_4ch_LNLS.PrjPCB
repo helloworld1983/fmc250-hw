@@ -348,7 +348,7 @@ ParamVariationCount=1
 Description=active clock_GSI
 AllowFabrication=0
 ParameterCount=0
-VariationCount=19
+VariationCount=18
 Variation1=Designator=R22|UniqueId=\HCCDLMUN\MYTTNKKT|Kind=1|AlternatePart= 
 Variation2=Designator=R41|UniqueId=\HCCDLMUN\MAGWSRVX|Kind=1|AlternatePart= 
 Variation3=Designator=R56|UniqueId=\HCCDLMUN\GUGJTSUE|Kind=1|AlternatePart= 
@@ -364,10 +364,34 @@ Variation12=Designator=TR3|UniqueId=\HCCDLMUN\PTNNBMSR|Kind=1|AlternatePart=
 Variation13=Designator=TR4|UniqueId=\HCCDLMUN\XVGJWJYU|Kind=1|AlternatePart= 
 Variation14=Designator=TR5|UniqueId=\HCCDLMUN\GOQMEGCL|Kind=1|AlternatePart= 
 Variation15=Designator=IC3|UniqueId=\HCCDLMUN\ASDYHVSU|Kind=1|AlternatePart= 
-Variation16=Designator=OSC2|UniqueId=\HCCDLMUN\YTYQCVOT|Kind=0|AlternatePart= 
-Variation17=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
-Variation18=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
-Variation19=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
+Variation16=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
+Variation17=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
+Variation18=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant4]
+Description=active_clock_LNLS
+AllowFabrication=0
+ParameterCount=0
+VariationCount=18
+Variation1=Designator=C60|UniqueId=\HCCDLMUN\KWWYVGOR|Kind=1|AlternatePart= 
+Variation2=Designator=IC3|UniqueId=\HCCDLMUN\ASDYHVSU|Kind=1|AlternatePart= 
+Variation3=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
+Variation4=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
+Variation5=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
+Variation6=Designator=R22|UniqueId=\HCCDLMUN\MYTTNKKT|Kind=1|AlternatePart= 
+Variation7=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
+Variation8=Designator=R41|UniqueId=\HCCDLMUN\MAGWSRVX|Kind=1|AlternatePart= 
+Variation9=Designator=R56|UniqueId=\HCCDLMUN\GUGJTSUE|Kind=1|AlternatePart= 
+Variation10=Designator=R57|UniqueId=\HCCDLMUN\MWGBLMCJ|Kind=1|AlternatePart= 
+Variation11=Designator=R58|UniqueId=\HCCDLMUN\GGINTPRW|Kind=1|AlternatePart= 
+Variation12=Designator=R59|UniqueId=\HCCDLMUN\PTXAPNUF|Kind=1|AlternatePart= 
+Variation13=Designator=R60|UniqueId=\HCCDLMUN\INKARWVK|Kind=1|AlternatePart= 
+Variation14=Designator=R61|UniqueId=\HCCDLMUN\CEJGSWBR|Kind=1|AlternatePart= 
+Variation15=Designator=TR2|UniqueId=\HCCDLMUN\KKSUCTTT|Kind=1|AlternatePart= 
+Variation16=Designator=TR3|UniqueId=\HCCDLMUN\PTNNBMSR|Kind=1|AlternatePart= 
+Variation17=Designator=TR4|UniqueId=\HCCDLMUN\XVGJWJYU|Kind=1|AlternatePart= 
+Variation18=Designator=TR5|UniqueId=\HCCDLMUN\GOQMEGCL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
