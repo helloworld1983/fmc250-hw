@@ -1,10 +1,10 @@
 # Altium files
 # History:
-*History
+History/
 *_Previews
 *.LOG
-*Project Outputs*
-*Project Logs*
+*Project\ Outputs*
+*Project\ Logs*
 *gerbers*
 *.outjob
 *.prjPcbStructure
