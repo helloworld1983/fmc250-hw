@@ -419,6 +419,10 @@ DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=panel_silk.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=shield.PcbDoc.htm
 DItemRevisionGUID=
 
