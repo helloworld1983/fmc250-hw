@@ -411,10 +411,14 @@ Variation18=Designator=TR5|UniqueId=\HCCDLMUN\GOQMEGCL|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\Design Rule Check - FMC_ADC_250M_16B_4ch_pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=shield.PcbDoc.htm
 DItemRevisionGUID=
 
