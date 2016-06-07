@@ -271,22 +271,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document16]
-DocumentPath=..\..\fmc250-library\FMC_ADC_250M_16B_4ch.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
 [ProjectVariant1]
 Description=active clock
 AllowFabrication=0
@@ -379,18 +363,22 @@ Variation18=Designator=TR5|UniqueId=\HCCDLMUN\GOQMEGCL|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Database Messages.txt
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\Board Information - FMC_ADC_250M_16B_4ch_pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\Design Rule Check - FMC_ADC_250M_16B_4ch_pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=panel_silk.PcbDoc.htm
+DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=panel_silk.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=shield.PcbDoc.htm
 DItemRevisionGUID=
 
@@ -407,7 +395,7 @@ OutputJobsCount=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -538,7 +526,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -559,7 +547,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -673,7 +661,7 @@ PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -695,7 +683,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -751,7 +739,7 @@ OutputDefault9=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -788,7 +776,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -968,7 +956,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -997,7 +985,7 @@ OutputDefault4=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=\\phoenix\LINHAS_2
+TargetPrinter=\\phoenix\Linhas_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
@@ -1375,7 +1363,7 @@ ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=EDA-02408-V1.SCHLIB
-ComponentDesignItemID14=
+ComponentDesignItemID14=Diode x2 A1C3_A3C2
 ComponentSymbolReference14=Diode x2 A1C3_A3C2
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
@@ -1693,7 +1681,7 @@ ComponentUpdate66=1
 ComponentIsDeviceSheet66=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
