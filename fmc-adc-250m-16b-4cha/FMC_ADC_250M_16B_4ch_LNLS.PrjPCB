@@ -275,39 +275,22 @@ GenerateClassCluster=0
 Description=active clock
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
-Variation1=Designator=R22|UniqueId=\HCCDLMUN\MYTTNKKT|Kind=1|AlternatePart= 
-Variation2=Designator=R41|UniqueId=\HCCDLMUN\MAGWSRVX|Kind=1|AlternatePart= 
-Variation3=Designator=R56|UniqueId=\HCCDLMUN\GUGJTSUE|Kind=1|AlternatePart= 
-Variation4=Designator=R57|UniqueId=\HCCDLMUN\MWGBLMCJ|Kind=1|AlternatePart= 
-Variation5=Designator=R58|UniqueId=\HCCDLMUN\GGINTPRW|Kind=1|AlternatePart= 
-Variation6=Designator=R59|UniqueId=\HCCDLMUN\PTXAPNUF|Kind=1|AlternatePart= 
-Variation7=Designator=R60|UniqueId=\HCCDLMUN\INKARWVK|Kind=1|AlternatePart= 
-Variation8=Designator=R61|UniqueId=\HCCDLMUN\CEJGSWBR|Kind=1|AlternatePart= 
-Variation9=Designator=C60|UniqueId=\HCCDLMUN\KWWYVGOR|Kind=1|AlternatePart= 
-Variation10=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
+VariationCount=1
+Variation1=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
 Description=passive clock
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
-Variation1=Designator=R66|UniqueId=\HCCDLMUN\BHVVFUPX|Kind=1|AlternatePart= 
-Variation2=Designator=R67|UniqueId=\HCCDLMUN\ATDOTVQN|Kind=1|AlternatePart= 
-Variation3=Designator=R62|UniqueId=\HCCDLMUN\FJBUJHSW|Kind=1|AlternatePart= 
-Variation4=Designator=R63|UniqueId=\HCCDLMUN\RBJLFKCA|Kind=1|AlternatePart= 
-Variation5=Designator=R68|UniqueId=\HCCDLMUN\CHUGMUQC|Kind=1|AlternatePart= 
-Variation6=Designator=R69|UniqueId=\HCCDLMUN\HPTXMLGY|Kind=1|AlternatePart= 
-Variation7=Designator=R70|UniqueId=\HCCDLMUN\OGQPSYHX|Kind=1|AlternatePart= 
-Variation8=Designator=R71|UniqueId=\HCCDLMUN\CFLXLOAJ|Kind=1|AlternatePart= 
-Variation9=Designator=R26|UniqueId=\HCCDLMUN\GYQAGHLU|Kind=1|AlternatePart= 
-Variation10=Designator=R72|UniqueId=\HCCDLMUN\WVOFHFNV|Kind=1|AlternatePart= 
-Variation11=Designator=R73|UniqueId=\HCCDLMUN\CTJITWIK|Kind=1|AlternatePart= 
-Variation12=Designator=L1|UniqueId=\HCCDLMUN\EPJTFVYQ|Kind=1|AlternatePart= 
-Variation13=Designator=L9|UniqueId=\HCCDLMUN\LTCLAQEF|Kind=1|AlternatePart= 
-Variation14=Designator=L3|UniqueId=\HCCDLMUN\OQKJGXRQ|Kind=1|AlternatePart= 
-Variation15=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=2|AlternatePart=0R
+VariationCount=7
+Variation1=Designator=R26|UniqueId=\HCCDLMUN\GYQAGHLU|Kind=1|AlternatePart= 
+Variation2=Designator=R72|UniqueId=\HCCDLMUN\WVOFHFNV|Kind=1|AlternatePart= 
+Variation3=Designator=R73|UniqueId=\HCCDLMUN\CTJITWIK|Kind=1|AlternatePart= 
+Variation4=Designator=L1|UniqueId=\HCCDLMUN\EPJTFVYQ|Kind=1|AlternatePart= 
+Variation5=Designator=L9|UniqueId=\HCCDLMUN\LTCLAQEF|Kind=1|AlternatePart= 
+Variation6=Designator=L3|UniqueId=\HCCDLMUN\OQKJGXRQ|Kind=1|AlternatePart= 
+Variation7=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=2|AlternatePart=0R
 ParamVariation1=ParameterName=Comment|VariantValue=0R
 ParamDesignator1=R24
 ParamVariationCount=1
@@ -316,70 +299,263 @@ ParamVariationCount=1
 Description=active clock_GSI
 AllowFabrication=0
 ParameterCount=0
-VariationCount=18
-Variation1=Designator=R22|UniqueId=\HCCDLMUN\MYTTNKKT|Kind=1|AlternatePart= 
-Variation2=Designator=R41|UniqueId=\HCCDLMUN\MAGWSRVX|Kind=1|AlternatePart= 
-Variation3=Designator=R56|UniqueId=\HCCDLMUN\GUGJTSUE|Kind=1|AlternatePart= 
-Variation4=Designator=R57|UniqueId=\HCCDLMUN\MWGBLMCJ|Kind=1|AlternatePart= 
-Variation5=Designator=R58|UniqueId=\HCCDLMUN\GGINTPRW|Kind=1|AlternatePart= 
-Variation6=Designator=R59|UniqueId=\HCCDLMUN\PTXAPNUF|Kind=1|AlternatePart= 
-Variation7=Designator=R60|UniqueId=\HCCDLMUN\INKARWVK|Kind=1|AlternatePart= 
-Variation8=Designator=R61|UniqueId=\HCCDLMUN\CEJGSWBR|Kind=1|AlternatePart= 
-Variation9=Designator=C60|UniqueId=\HCCDLMUN\KWWYVGOR|Kind=1|AlternatePart= 
-Variation10=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
-Variation11=Designator=TR2|UniqueId=\HCCDLMUN\KKSUCTTT|Kind=1|AlternatePart= 
-Variation12=Designator=TR3|UniqueId=\HCCDLMUN\PTNNBMSR|Kind=1|AlternatePart= 
-Variation13=Designator=TR4|UniqueId=\HCCDLMUN\XVGJWJYU|Kind=1|AlternatePart= 
-Variation14=Designator=TR5|UniqueId=\HCCDLMUN\GOQMEGCL|Kind=1|AlternatePart= 
-Variation15=Designator=IC3|UniqueId=\HCCDLMUN\ASDYHVSU|Kind=1|AlternatePart= 
-Variation16=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
-Variation17=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
-Variation18=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
+VariationCount=4
+Variation1=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
+Variation2=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
+Variation3=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
+Variation4=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant4]
 Description=active_clock_LNLS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=18
-Variation1=Designator=C60|UniqueId=\HCCDLMUN\KWWYVGOR|Kind=1|AlternatePart= 
-Variation2=Designator=IC3|UniqueId=\HCCDLMUN\ASDYHVSU|Kind=1|AlternatePart= 
-Variation3=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
-Variation4=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
-Variation5=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
-Variation6=Designator=R22|UniqueId=\HCCDLMUN\MYTTNKKT|Kind=1|AlternatePart= 
-Variation7=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
-Variation8=Designator=R41|UniqueId=\HCCDLMUN\MAGWSRVX|Kind=1|AlternatePart= 
-Variation9=Designator=R56|UniqueId=\HCCDLMUN\GUGJTSUE|Kind=1|AlternatePart= 
-Variation10=Designator=R57|UniqueId=\HCCDLMUN\MWGBLMCJ|Kind=1|AlternatePart= 
-Variation11=Designator=R58|UniqueId=\HCCDLMUN\GGINTPRW|Kind=1|AlternatePart= 
-Variation12=Designator=R59|UniqueId=\HCCDLMUN\PTXAPNUF|Kind=1|AlternatePart= 
-Variation13=Designator=R60|UniqueId=\HCCDLMUN\INKARWVK|Kind=1|AlternatePart= 
-Variation14=Designator=R61|UniqueId=\HCCDLMUN\CEJGSWBR|Kind=1|AlternatePart= 
-Variation15=Designator=TR2|UniqueId=\HCCDLMUN\KKSUCTTT|Kind=1|AlternatePart= 
-Variation16=Designator=TR3|UniqueId=\HCCDLMUN\PTNNBMSR|Kind=1|AlternatePart= 
-Variation17=Designator=TR4|UniqueId=\HCCDLMUN\XVGJWJYU|Kind=1|AlternatePart= 
-Variation18=Designator=TR5|UniqueId=\HCCDLMUN\GOQMEGCL|Kind=1|AlternatePart= 
+VariationCount=5
+Variation1=Designator=J7|UniqueId=\HCCDLMUN\IJCLDFUB|Kind=1|AlternatePart= 
+Variation2=Designator=J10|UniqueId=\HCCDLMUN\MLILNBBC|Kind=1|AlternatePart= 
+Variation3=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart= 
+Variation4=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
+Variation5=Designator=R26|UniqueId=\HCCDLMUN\GYQAGHLU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\Board Information - FMC_ADC_250M_16B_4ch_pcb.html
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\Design Rule Check - FMC_ADC_250M_16B_4ch_pcb.html
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=panel_silk.PcbDoc.htm
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\Design Rule Check - FMC_ADC_250M_16B_4ch_pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottomoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottompaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottomsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\keepout\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical1\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical2\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical3\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical8\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical11\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical12\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical13\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical14\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical15\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical16\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical18\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical20\features
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical30\features
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical31\features
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical32\features
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mid1\features
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mid2\features
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mid3\features
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\plane1\features
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\plane2\features
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\plane3\features
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\topoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\toppaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\topsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_45\features
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_135\features
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_225\features
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_315\features
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\r19.685_offset-19.685x0\features
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\r43.307_offset-19.685x0\features
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_90_offset7.874x7.874\features
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_180_offset7.874x7.874\features
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_270_offset7.874x7.874\features
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_offset7.874x7.874\features
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s39.3701_45\features
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s39.3701_135\features
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s78.7401_45\features
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s78.7401_135\features
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\FMC_ADC_250M_16B_4ch_pcb.REP
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=panel_silk.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument58]
 DocumentPath=shield.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -395,7 +571,7 @@ OutputJobsCount=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\LINHAS_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -526,7 +702,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\LINHAS_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -547,7 +723,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\LINHAS_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -661,7 +837,7 @@ PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\LINHAS_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -683,63 +859,65 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\Linhas_1
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=ODB
+OutputName1=ODB++ Files
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 16=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 5=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|AddToAllPlots_Title Block=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 18|Plot_V7_2=True|Plot_V7_2_name=Mechanical Layer 20|Plot_V7_3=True|Plot_V7_3_name=Mechanical Layer 30|Plot_V7_4=True|Plot_V7_4_name=Mechanical Layer 31|Plot_V7_5=True|Plot_V7_5_name=Mechanical Layer 32|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=True|PlotInternalPlane3Plot=True|PlotInternalPlane4Plot=True|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=True|PlotMechanical12Plot=True|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=True|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=True|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
+OutputType2=NC Drill
+OutputName2=NC Drill Files
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType3=Final
-OutputName3=Final Artwork Prints
+OutputType3=Test Points
+OutputName3=Test Point Report
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType4=Gerber
-OutputName4=Gerber Files
+OutputType4=Plane
+OutputName4=Power-Plane Prints
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType5=Mask
 OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType6=NC Drill
-OutputName6=NC Drill Files
+OutputType6=Drill
+OutputName6=Drill Drawing/Guides
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=ODB
-OutputName7=ODB++ Files
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType7=CompositeDrill
+OutputName7=Composite Drill Drawing
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
-OutputType8=Plane
-OutputName8=Power-Plane Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType8=Final
+OutputName8=Final Artwork Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType9=Test Points
-OutputName9=Test Point Report
+OutputType9=Gerber
+OutputName9=Gerber Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\Linhas_1
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -750,7 +928,7 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration1_Name1=Filter
 Configuration1_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A25000000010000000001020000004E6F100000004D61696E47726964436F6C756D6E36330106024E6F0000
 Configuration1_Name2=General
-Configuration1_Item2=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=True|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1818|FormHeight=652|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Item2=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=True|IncludePCBData=True|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1818|FormHeight=652|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration1_Name3=GroupOrder
 Configuration1_Item3=Part Number=True|Comment=True|Footprint=True
 Configuration1_Name4=OutputConfigurationParameter1
@@ -758,7 +936,7 @@ Configuration1_Item4=??
 Configuration1_Name5=SortOrder
 Configuration1_Item5=Mounted=Down
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Designator=202|Part Number=148|Description=298|Quantity=140|Manufacturer=140|Manufacturer Part Number=222|Manufacturer1 Example=117|Manufacturer1 Part Number=117|DocumentName=101|Mounted=99
+Configuration1_Item6=Designator=202|Part Number=148|Description=298|Quantity=140|Manufacturer=140|Manufacturer Part Number=222|Manufacturer1 Example=117|Manufacturer1 Part Number=117|Mounted=99
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -790,7 +968,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\LINHAS_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -970,7 +1148,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\LINHAS_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -999,7 +1177,7 @@ OutputDefault4=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=\\phoenix\Linhas_2
+TargetPrinter=\\phoenix\LINHAS_2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
