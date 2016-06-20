@@ -8,7 +8,6 @@ History/
 *Project\ Outputs*
 *Project\ Logs*
 *gerbers*
-*.outjob
 *.prjPcbStructure
 *.Dat
 *.PcbLib
