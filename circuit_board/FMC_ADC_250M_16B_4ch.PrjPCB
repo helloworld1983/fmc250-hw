@@ -32,13 +32,13 @@ ReportSuppressedErrorsInMessages=0
 OutputPath=
 
 [Document1]
-DocumentPath=Schematics\FMC_ADC_top.SchDoc
+DocumentPath=ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -48,13 +48,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document2]
-DocumentPath=Schematics\ADC.SchDoc
+DocumentPath=ADC_Buffers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -64,13 +64,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document3]
-DocumentPath=Schematics\ADC_Buffers.SchDoc
+DocumentPath=Clock_Distribution.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=8
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -80,13 +80,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document4]
-DocumentPath=Schematics\Clock_Distribution.SchDoc
+DocumentPath=EEPROM_Temp_LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -96,13 +96,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document5]
-DocumentPath=Schematics\EEPROM_Temp_LEDs.SchDoc
+DocumentPath=FMC_ADC_top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -112,13 +112,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document6]
-DocumentPath=Schematics\FMC_connector.SchDoc
+DocumentPath=FMC_connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -128,13 +128,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document7]
-DocumentPath=Schematics\Supply.SchDoc
+DocumentPath=Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=6
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -144,13 +144,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document8]
-DocumentPath=Schematics\Triggers.SchDoc
+DocumentPath=Triggers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=7
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -160,7 +160,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document9]
-DocumentPath=shield.PcbDoc
+DocumentPath=FMC_ADC_250M_16B_4ch.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -176,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document10]
-DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc
+DocumentPath=..\mechanical\panel_silk.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -192,71 +192,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document11]
-DocumentPath=panel_silk.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document12]
-DocumentPath=Schematics\FMC_connector.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document13]
-DocumentPath=Schematics\ADC.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document14]
-DocumentPath=Schematics\ADC_Buffers.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document15]
-DocumentPath=FMC_ADC_250M_16B_4ch_LNLS.Annotation
+DocumentPath=..\mechanical\shield.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -317,246 +253,6 @@ Variation3=Designator=OSC1|UniqueId=\HCCDLMUN\UCWOGQAO|Kind=1|AlternatePart=
 Variation4=Designator=R24|UniqueId=\HCCDLMUN\HVSJOEAH|Kind=1|AlternatePart= 
 Variation5=Designator=R26|UniqueId=\HCCDLMUN\GYQAGHLU|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\Design Rule Check - FMC_ADC_250M_16B_4ch_pcb.html
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottom\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottomoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottompaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\bottomsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\keepout\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical1\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical2\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical3\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical8\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical11\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical12\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical13\features
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical14\features
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical15\features
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical16\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical18\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical20\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical30\features
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical31\features
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mechanical32\features
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mid1\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mid2\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\mid3\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\plane1\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\plane2\features
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\plane3\features
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\top\features
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\topoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\toppaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\topsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_225\features
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\oval110.4882x78.9921_315\features
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\r19.685_offset-19.685x0\features
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\r43.307_offset-19.685x0\features
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_90_offset7.874x7.874\features
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_180_offset7.874x7.874\features
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_270_offset7.874x7.874\features
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\rect98.4252x98.4252xr24.6063_offset7.874x7.874\features
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s39.3701_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s39.3701_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s78.7401_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\symbols\s78.7401_135\features
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=FMC_ADC_250M_16B_4ch_pcb.PcbDoc.htm
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\FMC_ADC_250M_16B_4ch_pcb.REP
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=panel_silk.PcbDoc.htm
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=shield.PcbDoc.htm
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=Project Outputs for FMC_ADC_250M_16B_4ch_LNLS\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
