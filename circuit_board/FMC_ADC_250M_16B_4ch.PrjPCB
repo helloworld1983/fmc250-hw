@@ -1883,7 +1883,7 @@ Configuration4_Item4=??
 Configuration4_Name5=SortOrder
 Configuration4_Item5=Mounted=Down
 Configuration4_Name6=VisibleOrder
-Configuration4_Item6=Designator=205|Part Number=151|Description=303|Value=100|Tolerance=100|Voltage=100|TC=100|Manufacturer=142|Manufacturer Part Number=226|Manufacturer1 Example=119|Manufacturer1 Part Number=128|Manufacturer1 ComponentHeight=101|Case=101|ComponentHeight=101|PackageDescription=101|Mounted=100|PressFit=101|SMD=101|Socket=98|Quantity=142
+Configuration4_Item6=Designator=205|Part Number=151|Description=303|Value=100|Tolerance=100|Voltage=100|Power=100|TC=100|Manufacturer=142|Manufacturer Part Number=226|Manufacturer1 Example=119|Manufacturer1 Part Number=128|Manufacturer1 ComponentHeight=101|Case=101|ComponentHeight=101|PackageDescription=101|Mounted=100|PressFit=101|SMD=101|Socket=98|Quantity=142
 OutputType5=ComponentCrossReference
 OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
