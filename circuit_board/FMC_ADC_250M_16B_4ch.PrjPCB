@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IILYUXAH
+DocumentUniqueId=OYFLSRHK
 
 [Document7]
 DocumentPath=FMC_ADC_top.SchDoc
@@ -222,7 +222,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RPFBHKQA
+DocumentUniqueId=KYGLWMMD
 
 [Document12]
 DocumentPath=FMC_ADC_250M_16B_4ch.PcbDoc
@@ -296,6 +296,7 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
+ConfigurationType=
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
